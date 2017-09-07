@@ -142,12 +142,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
+    <ClCompile Include="Source\Implementation\Shapes-Catch-Testing-Example.cpp" />
+    <ClCompile Include="Source\Implementation\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Shapes-Catch-Testing-Example.cpp" />
-    <ClCompile Include="stdafx.cpp" />
+    <ClInclude Include="Source\Headers\catch.hpp" />
+    <ClInclude Include="Source\Headers\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
