@@ -1,7 +1,7 @@
 // Shapes-Catch-Testing-Example.cpp : Defines the entry point for the console application.
 //
 
-#include "../Headers/Triangle.h"
+#include "Headers/Triangle.h"
 #include <iostream>
 
 int main()

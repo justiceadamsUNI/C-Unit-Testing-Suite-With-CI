@@ -142,11 +142,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Implementation\Shapes-Catch-Testing-Example.cpp" />
+    <ClCompile Include="Source\Shapes-Catch-Testing-Example.cpp" />
     <ClCompile Include="Source\Implementation\Triangle.cpp" />
+    <ClCompile Include="Test\RunTest.cpp" />
+    <ClCompile Include="Test\TriangleTest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Headers\catch.hpp" />
+    <ClInclude Include="Test\catch.hpp" />
     <ClInclude Include="Source\Headers\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

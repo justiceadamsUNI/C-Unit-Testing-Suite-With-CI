@@ -18,18 +18,24 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Implementation\Shapes-Catch-Testing-Example.cpp">
+    <ClCompile Include="Source\Implementation\Triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Implementation\Triangle.cpp">
+    <ClCompile Include="Test\TriangleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\RunTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shapes-Catch-Testing-Example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Headers\catch.hpp">
+    <ClInclude Include="Source\Headers\Triangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Headers\Triangle.h">
+    <ClInclude Include="Test\catch.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
