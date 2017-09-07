@@ -1,9 +1,12 @@
 #include "catch.hpp"
+#include <math.h> 
 #include "../Source/Headers/Triangle.h"
 
 
-TEST_CASE("testing some stuff") {
-	Triangle tri = Triangle(10.0f, 15.0f, 20.0f);
+TEST_CASE("Triangle area is computed correctly", "[Triangle]") {
+	Triangle Triangle(10.0f, 15.0f, 20.0f);
 
-	REQUIRE(1 == 1);
+	float RoundedArea = roundf(Triangle.GetArea() * 100) / 100;
+
+	REQUIRE(RoundedArea == 72.62f);
 }
