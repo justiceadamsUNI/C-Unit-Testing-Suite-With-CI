@@ -1,0 +1,9 @@
+# Enable C++ support
+language: cpp
+# Compiler selection
+compiler:
+  - gcc
+# Build steps
+script:
+  - g++ -Wall Shapes-Catch-Testing-Example/Test/*.cpp Shapes-Catch-Testing-Example/Source/Implementation/*.cpp -o test
+  -./test
