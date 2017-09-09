@@ -7,7 +7,7 @@ public:
 	// public methods to test
 	float GetArea();
 
-	float GetSurfaceArea();
+	float GetPerimiter();
 
 private:
 	float SideLengthA;

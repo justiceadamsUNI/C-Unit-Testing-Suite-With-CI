@@ -1,6 +1,7 @@
 #include "../Headers/Triangle.h"
 #include <math.h>
 #include <stdexcept>
+#include <iostream>
 
 Triangle::Triangle(float SideLengthA, float SideLengthB, float SideLengthC) {
 	this->SideLengthA = SideLengthA;
@@ -20,7 +21,7 @@ float Triangle::GetArea() {
 	return sqrt(AreaSquared);
 }
 
-float Triangle::GetSurfaceArea() {
+float Triangle::GetPerimiter() {
 	return SideLengthA + SideLengthB + SideLengthC;
 }
 
