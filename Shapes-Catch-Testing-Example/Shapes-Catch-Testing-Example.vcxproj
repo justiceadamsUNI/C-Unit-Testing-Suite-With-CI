@@ -142,12 +142,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Implementation\Square.cpp" />
     <ClCompile Include="Source\Shapes-Catch-Testing-Example.cpp" />
     <ClCompile Include="Source\Implementation\Triangle.cpp" />
     <ClCompile Include="Test\RunTest.cpp" />
+    <ClCompile Include="Test\SquareTest.cpp" />
     <ClCompile Include="Test\TriangleTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Headers\Square.h" />
     <ClInclude Include="Test\catch.hpp" />
     <ClInclude Include="Source\Headers\Triangle.h" />
   </ItemGroup>

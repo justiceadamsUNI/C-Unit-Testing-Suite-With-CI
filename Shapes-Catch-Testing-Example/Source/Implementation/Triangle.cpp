@@ -1,7 +1,6 @@
 #include "../Headers/Triangle.h"
 #include <math.h>
 #include <stdexcept>
-#include <iostream>
 
 Triangle::Triangle(float SideLengthA, float SideLengthB, float SideLengthC) {
 	this->SideLengthA = SideLengthA;
