@@ -12,7 +12,7 @@ There you have it! All you needed was a C++ compiler and git.
 ![Local Test Run](https://i.imgur.com/aqEOAnM.png)
 
 ## Continuous Integration
-I'm using [TravisCI](https://travis-ci.org/) as my CI tool (obviously). You can look at the [.travis.yml](https://github.com/justiceadamsUNI/CPP-Unit-Testing-Suite-With-CI/blob/master/.travis.yml) file to see how we're setting up our build system. It simply sets up a g++ compiler and runs the same script as above (compile then run). Fairly lightweight. No build system. No dependency management, just simplicity.
+I'm using [TravisCI](https://travis-ci.org/) as my CI tool (obviously). You can look at the [.travis.yml](https://github.com/justiceadamsUNI/CPP-Unit-Testing-Suite-With-CI/blob/master/.travis.yml) file to see how we're setting up our build system. It simply sets up a g++ compiler and runs the same script as above (compile then run. It also ensures that the main class can compile). Fairly lightweight. No build system. No dependency management, just simplicity.
 
 Thus whenever you push a commit, a build is run (it will trigger builds for PR's as well).  Here's an example Build Run.
 ![Local Test Run](https://i.imgur.com/xQNKlHE.png)
