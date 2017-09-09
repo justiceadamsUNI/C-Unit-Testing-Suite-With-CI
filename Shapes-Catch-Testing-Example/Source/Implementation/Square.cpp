@@ -1,4 +1,4 @@
-#include "..\Headers\Square.h"
+#include "../Headers/Square.h"
 #include <stdexcept>
 
 Square::Square(float SideLength)
