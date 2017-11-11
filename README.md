@@ -26,7 +26,9 @@ Hopefully, this is helpfull. If you find this and get stuck, reach out to me for
 - [Boost.Test](http://www.boost.org/doc/libs/1_65_1/libs/test/doc/html/index.html)
 
 ## Things I Wish To Further Explore
-- I'd like to find C++ mocking framework with the same requirements as above. Ideally something similar to [Mockito for Java](http://site.mockito.org/). Ideally suited for proper integration test.
+- I'd like to find C++ mocking framework with the same requirements as above. Ideally something similar to [Mockito for Java](http://site.mockito.org/). Ideally suited for proper integration test. 
+
+**Update:** I discovered [CATCH](https://github.com/catchorg/Catch2), A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD. It's fairly simple and lightweight being that it's header only. For an example of how to use CATCH, I encourage you to look through my [compiler repo's unit test](https://github.com/justiceadamsUNI/Klein-Compiler/tree/master/Compiler/test)
 
 
 
